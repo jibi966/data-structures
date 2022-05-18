@@ -32,29 +32,52 @@
 
 // Encapsulation
 
-class Employee {
-  constructor() {
-    var name;
-    var rating;
+// class Employee {
+//   constructor() {
+//     var name;
+//     var rating;
+//   }
+
+//   getName() {
+//     return this.name;
+//   }
+//   setName(name) {
+//     this.name = name;
+//   }
+//   getRating() {
+//     return this.rating;
+//   }
+//   setRating(rating) {
+//     this.rating = rating;
+//   }
+// }
+
+// const emp1 = new Employee();
+
+// emp1.setName("Jibi");
+// emp1.setRating(2);
+// console.log(emp1.getName());
+// console.log(emp1.getRating());
+
+// Abstraction
+
+class User {
+  constructor(name, age) {
+    this._name = name;
+    this._age = age;
+    this._skills = [];
   }
 
-  getName() {
-    return this.name;
+  addSkill(skill) {
+    this._skills.push(skill);
   }
-  setName(name) {
-    this.name = name;
-  }
-  getRating() {
-    return this.rating;
-  }
-  setRating(rating) {
-    this.rating = rating;
+  isEligibleForVote() {
+    return this._age >= 18;
   }
 }
 
-const emp1 = new Employee();
-
-emp1.setName("Jibi");
-emp1.setRating(2);
-console.log(emp1.getName());
-console.log(emp1.getRating());
+const s1 = new User("Jibi", 23);
+s1.addSkill("React");
+s1.addSkill("Javascript");
+console.log(s1.isEligibleForVote());
+console.log(s1._skills);

@@ -1,3 +1,4 @@
+// @ts-nocheck
 function robbery(arr, idx, memo = {}) {
   if (idx in memo) return memo[n];
   if (idx <= 0) {

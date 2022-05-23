@@ -1,3 +1,4 @@
+// @ts-nocheck
 function set() {
   const key = 29;
   const arr = [

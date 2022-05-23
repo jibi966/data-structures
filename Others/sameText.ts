@@ -1,3 +1,4 @@
+// @ts-nocheck
 function sameText(s1, s2, i, j, memo = {}) {
   const key = i + "," + j;
   if (key in memo) {

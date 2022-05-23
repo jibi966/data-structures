@@ -1,3 +1,4 @@
+// @ts-nocheck
 const string = "abbaccd";
 
 function foo(str) {

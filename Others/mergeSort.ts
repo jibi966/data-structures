@@ -1,3 +1,4 @@
+// @ts-nocheck
 const arr = [7, 6, 5, 4, 3, 2, 1];
 mergeSort(0, arr, arr.length - 1);
 console.log(arr);

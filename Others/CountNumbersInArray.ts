@@ -1,3 +1,4 @@
+// @ts-nocheck
 let arr = [10, 1, 10, 3, 4];
 const queries = [
   [1, 10],

@@ -5,7 +5,7 @@
 // input: N = 5
 // input arr => 1 2 5 3 5
 // output => -1 1 2 2 3
-
+// @ts-nocheck
 const arr = [1, 2, 5, 4, 5];
 nearestSmallerElement(arr);
 

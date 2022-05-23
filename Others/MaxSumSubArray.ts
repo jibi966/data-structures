@@ -1,5 +1,5 @@
 // sub array sum
-
+// @ts-nocheck
 function maxSubArraySum(a, size) {
   let max_so_far = Number.MIN_VALUE;
   let max_ending_here = 0;

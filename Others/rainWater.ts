@@ -8,7 +8,7 @@
 // obj2.name = "pana";
 // console.log(obj1);
 // console.log(obj2);
-
+// @ts-nocheck
 Array.prototype.pairs = function (func) {
   for (var i = 0; i < this.length - 1; i++) {
     for (var j = i; j < this.length - 1; j++) {

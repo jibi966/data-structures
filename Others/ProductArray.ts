@@ -9,7 +9,7 @@
 // n=> 3
 // arr=> 3 2 7
 // ans=> 14 21 6
-
+// @ts-nocheck
 const n = 5;
 const arr = [1, 2, 3, 4, 5];
 console.log(productArray(arr, n));

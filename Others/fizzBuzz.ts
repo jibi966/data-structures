@@ -1,3 +1,4 @@
+// @ts-nocheck
 const n = 100000;
 fizzBuzz(n);
 function fizzBuzz(n) {

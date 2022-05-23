@@ -1,3 +1,4 @@
+// @ts-nocheck
 const key = 22;
 const arr = [2, 2, 2, 2, 2, 11, 15, 18, 20, 22];
 console.log(main(arr, key));

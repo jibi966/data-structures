@@ -1,5 +1,6 @@
 // string: xyzasisayzx
 // Output: asisa
+// @ts-nocheck
 const str = "xyzasisayzx";
 
 const ans1 = longestPalindromicSubstring(str);

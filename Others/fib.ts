@@ -1,3 +1,4 @@
+// @ts-nocheck
 const fib = (n, memo = {}) => {
   if (n in memo) return memo[n];
   if (n === 0 || n === 1) {

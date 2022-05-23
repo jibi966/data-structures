@@ -1,3 +1,4 @@
+// @ts-nocheck
 function listing(arr, cur) {
   if (cur === 0) {
     return 1;

@@ -1,5 +1,6 @@
 // Given an array A of N elements that contains elements from 1 to N-1.
 // All elements occur once except one which occurs twice. Find the repeating element.
+// @ts-nocheck
 const N = 7;
 const arr = [1, 3, 2, 4, 5, 6, 6];
 

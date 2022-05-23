@@ -1,3 +1,4 @@
+// @ts-nocheck
 const strings = ["eat", "tea", "tan", "ate", "nat", "bat"];
 // Output => [["bat"],["nat","tan"],["ate","eat","tea"]]
 

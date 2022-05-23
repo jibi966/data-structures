@@ -1,3 +1,4 @@
+// @ts-nocheck
 function knapSack(profit, weight, capacity, idx, memo = {}) {
   const key = idx + "," + capacity;
   if (key in memo) return memo[key];

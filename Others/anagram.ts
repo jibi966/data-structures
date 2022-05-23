@@ -1,3 +1,4 @@
+// @ts-nocheck
 const str1 = "cdab";
 const str2 = "aced";
 

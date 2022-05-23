@@ -1,3 +1,4 @@
+// @ts-nocheck
 const arr = [1, 2, 3, 4];
 CheckSum(arr);
 

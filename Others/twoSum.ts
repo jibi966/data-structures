@@ -1,3 +1,4 @@
+// @ts-nocheck
 const arr = [2, 7, 11, 15];
 const target = 9;
 

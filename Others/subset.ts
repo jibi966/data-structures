@@ -1,3 +1,4 @@
+// @ts-nocheck
 function subSet(k, arr, index, sum) {
   if (index === arr.length) {
     if (sum === k) {
